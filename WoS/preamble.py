@@ -6,6 +6,10 @@ import matplotlib.pyplot as plt
 import mglearn
 from cycler import cycler
 
+from subprocess import check_output
+from wordcloud import WordCloud, STOPWORDS
+import matplotlib as mpl
+
 set_matplotlib_formats('pdf', 'png')
 plt.rcParams['figure.dpi'] = 300
 plt.rcParams['image.cmap'] = "viridis"
@@ -23,3 +27,6 @@ pd.set_option("display.max_columns", 8)
 pd.set_option('precision', 2)
 
 __all__ = ['np', 'mglearn', 'display', 'plt', 'pd']
+
+###
+
