@@ -3,12 +3,10 @@ from wordcloud import WordCloud, STOPWORDS
 import matplotlib.pyplot as plt
 import matplotlib as mpl
 
-def Teste():
-    print("Nada")
 
-def WordcloudPlot(frame):
+def WordcloudPlot(frame,key):
     list_di=[]
-    for i in frame["ID"]:
+    for i in frame[key]:
         if not i == None:
             for j in i.split(';'):
                 list_di.append(j)
