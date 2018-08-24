@@ -47,9 +47,9 @@ print ('quantidade palavras: ', len(words))
 words = [word for word in words if len(word) > 4]
 print ('quantidade palavras apos removao de palavras com tamanho menor que 4: ',len(words))
 
-#pdb.set_trace()
+
 freq = nltk.FreqDist(words)
-#pdb.set_trace()
+
 
 print ('apresentando grafico com 20 maiores frequencias')
 #TODO: rotacionar o eixo x das palavras para melhor visualiacao
