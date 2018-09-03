@@ -1,1 +1,1 @@
-# Solar Energy
+# Solar Energy Network
